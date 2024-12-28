@@ -1,0 +1,8 @@
+PyQt5==5.15.9
+pypresence==4.2.1
+Flask==2.3.3
+Werkzeug==2.3.7
+requests==2.26.0
+psutil==5.9.8
+pywin32==308
+nest_asyncio==1.5.8
