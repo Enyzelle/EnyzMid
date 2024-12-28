@@ -86,13 +86,16 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-### 🌈 Made with ❤️ by Enyz
+## 📞 Contact
+- 📧 Email: [Enyz](enyz.contact@gmail.com)
+- 📸 IG: [@enyzelle](https://instagram.com/enyzelle)
+- 🤝 Discord: [yz.yuriza](https://discord.com/users/1317482100290752604)
 
-**Connect with me:**
-- 🌍 [Website](https://enyzmid.com)
-- 📧 [Email](mailto:contact@enyzmid.com)
-- 📸 [Instagram](https://instagram.com/enyz)
-- 🤝 [Discord](https://discord.gg/yourserver)
+---
+
+<div align="center">
+  Made with ❤️ by Enyzelle
+</div>
 
 ---
 
