@@ -14,7 +14,7 @@ EnyzMid is a sleek and efficient alternative to PreMiD, designed to provide an e
 
 ---
 
-## :tools: Download
+## 🛠️ Download
 1. **Download the latest release** from the [Releases Page](https://github.com/yourusername/EnyzMid/releases).
 2. Extract the downloaded zip file to your desired location.
 3. Run the `EnyzMid.exe` (or `main.py` if running the source code).
