@@ -9,7 +9,7 @@ nest_asyncio.apply()
 
 class PresenceManager:
     def __init__(self):
-        self.client_id = '1320713470395551774'  # Your Client ID is already set here
+        self.client_id = 'DISCORD_CLIENT_ID'  # Replace your discord client id
         self.presence = None
         self.connected = False
         self.current_activity = None
