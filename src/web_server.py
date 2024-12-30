@@ -10,9 +10,9 @@ app = Flask(__name__)
 settings = Settings()
 
 # Load config from environment variables or use defaults
-DISCORD_CLIENT_ID = '1320713470395551774'
-DISCORD_CLIENT_SECRET = 'FeeiR6pTbmcJu1EXNr9Wd5lYm9KDx4Ut'
-REDIRECT_URI = 'http://localhost:5000/callback'
+DISCORD_CLIENT_ID = 'DISCORD_CLIENT_ID' # Replace with your discord client id
+DISCORD_CLIENT_SECRET = 'DISCORD_CLIENT_SECRET' # Replace with your discord secret id
+REDIRECT_URI = 'http://localhost:5000/callback' # This is the default callback
 
 # Event to signal successful connection
 connection_successful = Event()
