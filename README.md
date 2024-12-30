@@ -1,108 +1,121 @@
 # EnyzMid
 
-EnyzMid is a sleek and efficient alternative to PreMiD, designed to provide an easy, fast, and simple solution for custom Discord Rich Presence. Built with Python, EnyzMid allows you to showcase detailed activity statuses for your favorite platforms effortlessly.
+EnyzMid is a sleek and efficient Discord Rich Presence manager that automatically displays your current activities on Discord. Built with Python, it provides real-time status updates for various platforms while being lightweight and user-friendly.
 
----
+<div align="center">
+  <img src="preview.png" alt="EnyzMid Preview" width="600">
+</div>
 
 ## ✨ Features
-- **⚡ Lightning-Fast**: Optimized for quick performance and minimal resource usage.
-- **🎨 Aesthetic and User-Friendly**: A beautiful and intuitive interface for all users.
-- **🎶 Custom Rich Presence**: Tailor your Discord status with detailed information from supported platforms.
-- **🌐 Multi-Platform Support**: Works seamlessly with YouTube, Netflix, Spotify, and more.
-- **🔄 Real-Time Sync**: Automatically updates your Discord status in real-time.
-- **📜 Open Source**: Fully open for contributions and customization.
 
----
+- **🎮 Rich Presence Support**
+  - YouTube: Display current video and channel
+  - Netflix: Show current show/movie
+  - Spotify: Display song, artist, and playback status
+  - Facebook: Show browsing activity
+  - Instagram: Display social activity
+  - Twitter: Show tweet browsing
+  - GitHub: Display repository activity
 
-## 🛠️ Download
-1. **Download the latest release** from the [Releases Page](https://github.com/Enyzelle/EnyzMid/releases).
-2. Extract the downloaded zip file to your desired location.
-3. Run the `EnyzMid.exe` (or `main.py` if running the source code).
+- **⚡ Smart Features**
+  - Automatic activity detection
+  - Real-time status updates
+  - Minimal resource usage
+  - System tray integration
+  - Easy activity management
 
-For source code users:
+- **🎨 Clean Interface**
+  - Modern activity management dashboard
+  - Toggle activities on/off
+  - User profile integration
+  - Sleek Discord-style design
 
-1. **Clone the repository:**
+## 🚀 Quick Start
+
+1. **Download & Install**
    ```bash
-   git clone https://github.com/yourusername/EnyzMid.git
-   ```
-2. **Navigate to the project directory:**
-   ```bash
+   git clone https://github.com/Enyzelle/EnyzMid.git
    cd EnyzMid
    ```
-3. **Create a virtual environment:**
+
+2. **Set Up Environment**
    ```bash
    python -m venv venv
-   source venv/bin/activate # On Windows: venv\Scripts\activate
-   ```
-4. **Install dependencies:**
-   ```bash
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
    ```
-5. **Run the application:**
+
+3. **Run EnyzMid**
    ```bash
-   python main.py
+   python src/main.py
    ```
 
----
+4. **Connect to Discord**
+   - Right-click the system tray icon
+   - Select "Connect to Discord"
+   - Authorize the application
 
-## 📖 Usage
-1. Launch EnyzMid and select the platform you want to integrate.
-2. Follow the prompts to connect your accounts and configure your custom Rich Presence.
-3. Watch your Discord profile update in real-time with detailed activity statuses.
+## 🎮 Supported Activities
 
----
+| Platform  | Features |
+|-----------|----------|
+| YouTube   | Video title, channel name, watching/browsing status |
+| Netflix   | Show/movie name, watching status |
+| Spotify   | Song, artist, playback status |
+| Facebook  | Browsing status |
+| Instagram | Post viewing status |
+| Twitter   | Tweet reading status |
+| GitHub    | Repository activity |
 
-## 🌟 Supported Platforms
-- **YouTube**: Display video titles, creators, playback progress, and more.
-- **Netflix**: Show series/movies, episodes, seasons, and playback status.
-- **Spotify**: Showcase songs, artists, albums, and playback duration.
-- **More Platforms Coming Soon!**
+## ⚙️ Configuration
 
----
+Access the activity management dashboard:
+1. Right-click the EnyzMid tray icon
+2. Select "Manage Activities"
+3. Toggle your desired activities
 
-## 💻 Development
-If you'd like to contribute or customize EnyzMid, follow these steps:
-1. **Fork the repository** on GitHub.
-2. **Create a new branch** for your feature:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. **Make your changes** and commit them:
-   ```bash
-   git commit -m "Add your feature description"
-   ```
-4. **Push to your branch**:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. **Submit a pull request** on GitHub.
+## 🛠️ Technical Requirements
 
----
+- Python 3.8+
+- Windows OS
+- Discord Desktop App
+- Modern web browser (Chrome/Firefox/Edge)
 
-## 🎨 Planned Features
-- **Customizable Themes**: Change the appearance of EnyzMid to match your style.
-- **Additional Platform Support**: Integration with more platforms like Twitch and Apple Music.
-- **Enhanced Playback Controls**: Pause, play, or skip directly from the application.
-- **Advanced Analytics**: Track your activity and generate detailed usage reports.
+## 📦 Dependencies
 
----
+- `pypresence`: Discord Rich Presence API
+- `flask`: Web server for management interface
+- `pillow`: Image processing for tray icon
+- `pystray`: System tray functionality
+- `psutil`: Process monitoring
+- `pywin32`: Windows API integration
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📞 Contact & Support
+
+- **Discord**: [yz.yuriza](https://discord.com/users/1317482100290752604)
+- **Instagram**: [@enyzelle](https://instagram.com/enyzelle)
+- **Email**: enyz.contact@gmail.com
 
 ## 📄 License
-This project is licensed under the [MIT License](LICENSE).
 
----
-
-## 📞 Contact
-- 📧 Email: [Enyz](enyz.contact@gmail.com)
-- 📸 IG: [@enyzelle](https://instagram.com/enyzelle)
-- 🤝 Discord: [yz.yuriza](https://discord.com/users/1317482100290752604)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
+  <img src="https://img.shields.io/github/license/Enyzelle/EnyzMid?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/github/stars/Enyzelle/EnyzMid?style=for-the-badge" alt="Stars">
+  <img src="https://img.shields.io/github/issues/Enyzelle/EnyzMid?style=for-the-badge" alt="Issues">
+  <br>
   Made with ❤️ by Enyzelle
 </div>
-
----
-
-> _"Make your Discord status as dynamic and vibrant as your personality with EnyzMid."_
