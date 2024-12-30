@@ -1,0 +1,8 @@
+pypresence
+pillow
+pystray
+flask
+requests
+psutil
+pywin32
+nest_asyncio 

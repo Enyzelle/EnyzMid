@@ -1,0 +1,11 @@
+{
+    "activities": {
+        "youtube": true,
+        "netflix": true,
+        "spotify": true,
+        "facebook": false,
+        "instagram": false,
+        "twitter": false,
+        "github": true
+    }
+}
